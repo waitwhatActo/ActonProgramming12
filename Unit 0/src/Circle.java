@@ -1,5 +1,3 @@
-package unit01.assignment01;
-
 public class Circle {
     private double radius = 1.0;
     public Circle() {
@@ -19,7 +17,7 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.PI * radius * radius;
+        return Math.PI * Math.pow(radius, 2);
     }
 
     public double getCircumference() {

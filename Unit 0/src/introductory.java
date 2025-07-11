@@ -1,5 +1,3 @@
-package unit01.assignment01;
-
 import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
@@ -8,21 +6,13 @@ import java.io.FileNotFoundException;
 
 public class introductory {
     public static void main(String[] args) {
-        int coins = 28;
-        double value = 0;
-        for (int i = 0; i < coins; i++) {
-            value += 0.01;
-        }
-        for (int i = 0; i < coins; i+=2) {
-            value += 0.04;
-        }
-        for (int i = 0; i < coins; i+=3) {
-            value += 0.09;
-        }
-        for (int i = 0; i < coins; i+=4) {
-            value += 0.24;
-        }
-        System.out.println(value);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("How many hot dogs would you like to buy? ");
+        int hotDogs = sc.nextInt();
+        System.out.print("How many drinks would you like to buy? ");
+        int drinks = sc.nextInt();
+
+        System.out.println("Your total is $"+ Math.round((((3.50 * hotDogs + 1.00 * drinks) * 1.12) * 100.0)) / 100.0);
     }
 }
 
@@ -33,15 +23,7 @@ class Question1 {
 }
 
 class Question3 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("How many hot dogs would you like to buy? ");
-        int hotDogs = sc.nextInt();
-        System.out.print("How many drinks would you like to buy? ");
-        int drinks = sc.nextInt();
 
-        System.out.println("Your total is $"+ Math.round(1.12d * (3.50d * hotDogs + drinks) * 100.0) / 100.0);
-    }
 }
 
 class Question4 {
@@ -125,5 +107,25 @@ class Question10 {
         else {
             System.out.println("None?");
         }
+    }
+}
+
+class Question15 {
+    public static void main(String[] args) {
+        int coins = 28;
+        double value = 0;
+        for (int i = 0; i < coins; i++) {
+            value += 0.01;
+        }
+        for (int i = 0; i < coins; i+=2) {
+            value += 0.04;
+        }
+        for (int i = 0; i < coins; i+=3) {
+            value += 0.09;
+        }
+        for (int i = 0; i < coins; i+=4) {
+            value += 0.24;
+        }
+        System.out.println(value);
     }
 }
