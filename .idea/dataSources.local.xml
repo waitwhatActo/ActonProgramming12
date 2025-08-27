@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-252.23892.409">
+    <data-source name="u4DB" uuid="321dde0b-9864-430b-a19f-bbff6b690aef">
+      <database-info product="Apache Derby" version="10.17.1.0 - (1913217)" jdbc-version="4.2" driver-name="Apache Derby Embedded JDBC Driver" driver-version="10.17.1.0 - (1913217)" dbms="DERBY" exact-version="10.17.1.0" exact-driver-version="10.17">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

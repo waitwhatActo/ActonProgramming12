@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108e7fbe-0551-42d6-9ac7-1757ee392cb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit 2/Unit 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/a1HashCodeAndEquals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/a1HashCodeAndEquals/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/a1HashCodeAndEquals/PlanetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/b2List/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/b2List/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/b2List/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/b2List/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/c3Compare/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/c3Compare/Comparators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/c3Compare/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/c3Compare/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/c3Compare/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/d4Sets/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/d4Sets/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/d4Sets/illiad.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/e5Maps/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/e5Maps/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit 2/src/com/acton/module2/e5Maps/words_alpha.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/derby.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 4/lib/derby.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 4/lib/derbyclient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 4/src/main/java/DatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit 4/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,39 +51,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Gridder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module2.c3Compare.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module2.d4Sets.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module2.e5Maps.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module3.a1recursion.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module3.b2morerecursions.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module3.c3BFS.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.acton.module3.c3graphs.Main.executor&quot;: &quot;Profiler#1&quot;,
-    &quot;Application.com.acton.module3.d4Sorting.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.introductory.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/VLN/Unit 2/src/com/acton/module2/e5Maps&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Gridder.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.com.acton.module2.c3Compare.Main.executor": "Run",
+    "Application.com.acton.module2.d4Sets.Main.executor": "Run",
+    "Application.com.acton.module2.e5Maps.Main.executor": "Run",
+    "Application.com.acton.module3.a1recursion.Main.executor": "Run",
+    "Application.com.acton.module3.b2morerecursions.Main.executor": "Run",
+    "Application.com.acton.module3.c3BFS.Main.executor": "Run",
+    "Application.com.acton.module3.c3graphs.Main.executor": "Profiler#1",
+    "Application.com.acton.module3.d4Sorting.Main.executor": "Run",
+    "Application.introductory.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/VLN/Unit 2/src/com/acton/module2/e5Maps",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "derby"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\VLN\Unit 2\src\com\acton\module2\e5Maps" />
@@ -101,27 +104,21 @@
       <recent name="D:\Projects\VLN\Unit1\src\com\acton\module1\three" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\VLN\Unit 4" />
+      <recent name="E:\Projects\VLN\Unit 4\src\main\lib" />
+      <recent name="E:\Projects\VLN\Unit 4\src\main" />
       <recent name="E:\Projects\VLN\Unit 2\src\com\acton" />
       <recent name="E:\Projects\VLN\Unit 3\src\com\acton\module3\d4Sorting" />
-      <recent name="E:\Projects\VLN\Unit 3\src\com\acton\module3\c3BFS" />
-      <recent name="E:\Projects\VLN" />
-      <recent name="E:\Projects\VLN\Unit 3\src\com\acton\module3\c3graphs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.acton.package1.one" />
       <recent name="com.acton.package1.two" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.acton.module2.e5Maps.Main">
-    <configuration name="Gridder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.acton.module3.e52DArrays.src.Gridder" />
-      <module name="Unit 3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.acton.module3.e52DArrays.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="U4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,13 +175,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Unit 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Unit 2" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.com.acton.module2.e5Maps.Main" />
         <item itemvalue="Application.com.acton.module2.d4Sets.Main" />
         <item itemvalue="Application.com.acton.module2.c3Compare.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Gridder" />
       </list>
     </recent_temporary>
   </component>
@@ -230,5 +238,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

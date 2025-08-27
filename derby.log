@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Aug 26 18:24:57 PDT 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0198-e920-cbcf-00001f579f78 
+on database directory E:\Projects\VLN\database\u4DB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528 
+Loaded from file:/E:/Projects/VLN/Unit%204/lib/derby.jar
+java.vendor=Azul Systems, Inc.
+java.runtime.version=21.0.6+7-LTS
+user.dir=E:\Projects\VLN
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
