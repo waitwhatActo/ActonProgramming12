@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="u5DB">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.53">
+    <root id="1">
+      <ServerVersion>10.17.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP">
+      <Current>1</Current>
+      <LastIntrospectionLocalTimestamp>2025-08-27.23:41:28</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SYS"/>
+    <schema id="6" parent="1" name="SYSCAT"/>
+    <schema id="7" parent="1" name="SYSCS_DIAG"/>
+    <schema id="8" parent="1" name="SYSCS_UTIL"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSIBM"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSSTAT"/>
+    <table id="13" parent="2" name="LOGINS"/>
+    <column id="14" parent="13" name="ID">
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+      <StoredType>INTEGER|4s</StoredType>
+    </column>
+    <column id="15" parent="13" name="USERNAME">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>VARCHAR(255)|12s</StoredType>
+    </column>
+    <column id="16" parent="13" name="PASSWORD">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>VARCHAR(128)|12s</StoredType>
+    </column>
+    <index id="17" parent="13" name="SQL250827163009930">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <index id="18" parent="13" name="SQL250827163009931">
+      <ColNames>USERNAME</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <key id="19" parent="13" name="SQL250827163009930">
+      <ColNames>ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="20" parent="13" name="SQL250827163009931">
+      <ColNames>USERNAME</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+    </key>
+  </database-model>
+</dataSource>

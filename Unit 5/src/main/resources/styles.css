@@ -1,0 +1,67 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #fdfdfd, #f2f2f2);
+}
+
+.label {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+}
+
+#formTitle, #welcomeLabel {
+    -fx-font-size: 24px;
+    -fx-text-fill: #2c3e50;
+}
+
+.button {
+    -fx-background-color: #4285f4;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-padding: 6 14;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #3367d6;
+}
+
+.button:pressed {
+    -fx-background-color: #274b9f;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 6;
+    -fx-padding: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #4285f4;
+    -fx-text-fill: white;
+}
+
+.table-column {
+    -fx-font-size: 13px;
+}
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #4285f4;
+    -fx-effect: dropshadow(gaussian, rgba(66,133,244,0.25), 4, 0, 0, 2);
+}
+
+/* ButtonBar */
+.button-bar {
+    -fx-background-color: transparent;
+    -fx-spacing: 8;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.ButtonBar?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeScreen">
+    <children>
+        <Label id="text" fx:id="welcomeLabel" layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="572.0" text="Welcome, null!">
+            <font>
+                <Font name="System Bold" size="35.0" />
+            </font></Label>
+        <Button layoutX="532.0" layoutY="361.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <Label layoutX="40.0" id="text" fx:id="joke" layoutY="278.0" text="idk what to add here tbh you don't have perms to add a new user sucks to suck" />
+        <ButtonBar fx:id="adminControls" visible="false" managed="false" layoutX="154.0" layoutY="180.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="40.0" prefWidth="292.0">
+            <buttons>
+                <Button mnemonicParsing="false" text="Add Users" onAction="#userlist"/>
+                <Button alignment="CENTER" mnemonicParsing="false" text="Edit Users" onAction="#userlist"/>
+                <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Delete Users" onAction="#userlist"/>
+            </buttons>
+        </ButtonBar>
+    </children>
+</AnchorPane>

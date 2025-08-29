@@ -14,5 +14,18 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="u5DB" uuid="0caa24e4-88e3-4f7d-92aa-75a622f67d9d">
+      <database-info product="Apache Derby" version="10.17.1.0 - (1913217)" jdbc-version="4.2" driver-name="Apache Derby Embedded JDBC Driver" driver-version="10.17.1.0 - (1913217)" dbms="DERBY" exact-version="10.17.1.0" exact-driver-version="10.17">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>

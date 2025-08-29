@@ -3,6 +3,8 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Unit 4/lib/derby.jar!/" />
       <root url="jar://$PROJECT_DIR$/Unit 4/lib/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Unit 5/lib/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Unit 5/lib/derbyclient.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
